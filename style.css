@@ -1,11 +1,87 @@
+/* SEBELUM MENULIS KODE BARIS CSS PERTAMA WAJIB UNTUK MENGATUR AGAR CELAH TIDAK ADA 
+    PENGATURANNYA SEPERTI INI!*/
+*, html, body {
+    padding: 0;
+    margin: 0;
+}
+/* Maksut kode diatas adalah kita mengatur celah di dalam web agar tidak ada, karena defaultnya
+    sebuah web memiliki celah yang dimana harus kita beri nilai 0 agar tidak ada. */
+/* Silahkan coba matikan dan nyalakan baris kode diatas dengan ctrl + / agar mengetahui hasilnya*/
+
+
 html{
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body{
-    background-image: linear-gradient(-90deg, #6195bf, #646092);
+    background-image: linear-gradient(to right, #6195bf, #646092);
 }
 
-header{
-  background-image: linear-gradient(-90deg, #c8c8c8, #ffffff);
+
+/* Pertama atur lebar, tinggi, dan display dari header agar bisa dijadikan sebagai navbar */
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    /* kemudian beri warna backgroundnya */
+    background-color: #bebcce;
+    align-items: center;
+}
+
+/* Kemudian kita lanjut membuat style pada div yang sudah diberi nama class yaitu nama */
+.nama{
+    /* Kita atur tinggi nya agar sama dengan wadahnya yaitu header*/
+    height: 100%;
+    /* Kemudian kita atur agar tampilannya berjejer kesamping dengan display flex dan kawan-kawan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* INI ADALAH KOMENTAR.
+Komentar tidak akan dijalankan oleh web.
+Jika ingin menyalakannya tinggal pilih sintaks yang ingin dijalankan dan klik ctrl + / */
+/* div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 50%;
+}
+
+.navbar li{
+    margin: 20px;
+    color: slategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.navbar1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 50%;
+}
+
+.navbar1 li{
+    margin: 6px;
 }
