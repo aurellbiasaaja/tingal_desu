@@ -1,0 +1,87 @@
+Ada beberapa macam aturan dalam pemanggilan css :
+
+1. Jika elemennya memiliki class, panggil pada css dengan format titik (.) diikuti nama classnya contoh:
+    HTML :                                 
+    <div class="nama">                     
+        <img>                        
+        <p class="namaku">AURELL</p>            
+    </div>                                  
+
+    CSS  :
+    .nama {
+        display: flex;
+        background-color: yellow;
+    }
+    
+    .namaku {
+        color: aquamarine;
+    }
+
+
+2. Jika elemennya tidak memiliki class, maka pemanggilannya dengan nama elemennya contoh:
+    HTML :                          
+    <div>
+        <img>
+        <p>AURELL</p>
+    </div>
+
+    CSS  :
+    div {
+        display: flex;
+        background-color: yellow;
+    }
+
+    p {
+        color: aquamarine;
+    }
+
+
+3. Jika elemennya memiliki id (fungsi id ini digunakan untuk identifier agar satu elemen yang kita beri id
+    bisa kita style khusus sendiri), maka pemanggilan css nya menggunakan format hastag (#) diikuti dengan nama id nya contoh:
+
+    HTML :
+    <div id="inikhusus">
+        <img>
+        <p id="author">AURELL</p>
+    </div>
+
+    CSS  :
+    #inikhusus {
+        display: flex;
+        background-color: yellow;
+    }
+    
+    #author {
+        color: aquamarine;
+    }
+
+KETIGA CARA DIATAS SEBENARNYA SAMA SAJA JIKA KITA INGIN MEMANGGIL SUATU ELEMEN DI DALAM HTML UNTUK KITA STYLE WARNA, LEBAR, DAN UKURAN.
+HANYA SAJA CARA KEDUA DINILAI TIDAK EFISIEN KARENA JIKA KITA MEMILIKI BANYAK ELEMEN YANG HANYA MERUPAKAN DIV DAN ISINYA BERBEDA,
+DAN KITA INGIN MEMBERI WARNA PADA SALAH SATU DIV SAJA, MAKA YANG TERJADI ADALAH SEMUA ELEMEN DIV TSB BERUBAH WARNA YG SAMA. KARENA 
+MENGGUNAKAN CARA KEDUA.
+CONTOH :
+
+HTML :
+    <div>
+        <img>
+        <p>AURELL</p>
+    </div>
+
+    <div>
+        <h6>HALLO teman-teman</h6>
+        <p>Ini deskripsi</p>
+    </div>
+
+    <div>
+        <h3>Berikut Skill Saya</h3>
+        <span>DEBIAN</span>
+        <span>MIKROTIK</span>
+        <span>LINUX</span>
+    </div>
+
+CSS  :
+    div {
+        background-color: red;
+    }
+
+HANYA DENGAN MEMANGGIL CSS DIV DAN MERUBAH WARNA BACKGROUND MENJADI MERAH, MAKA SEMUA DIV DIATAS AKAN BERUBAH DENGAN WARNA YANG SAMA
