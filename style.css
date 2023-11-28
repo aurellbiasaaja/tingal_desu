@@ -85,3 +85,45 @@ p{
 .navbar1 li{
     margin: 6px;
 }
+
+.jumbotron{
+    width: 100%;
+    /* border: 1px solid white; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    z-index: 1;
+    
+  
+
+}
+.jumbotron .judul{
+    font-weight: bold;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: solid black;
+    font-size: 30px;
+
+}
+
+.neh {
+    line-height: 100px;
+    letter-spacing: 7px;
+}
+
+.jumbotron .judul1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: solid black;
+    font-size: 30px;
+}
+
+.img-depan{
+    display: flex;
+    margin-right: 0px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace  ;
+}
