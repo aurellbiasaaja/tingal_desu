@@ -87,6 +87,14 @@ p{
     text-decoration: none;
 }
 
+.navbar li a:hover{
+    background-color: slategray;
+    color: white;
+    padding: 10px;
+    border-radius: 20%;
+    transition: .5s ease;
+}
+
 .navbar1{
     width: 50%;
     height: 100%;
@@ -101,14 +109,6 @@ p{
     margin: 6px;
 }
 
-.navbar li a:hover{
-    background-color: slategray;
-    color: white;
-    padding: 10px;
-    border-radius: 20%;
-    transition: .5s ease;
-}
-
 .jumbotron{
     width: 100%;
     /* border: 1px solid white; */
@@ -119,9 +119,16 @@ p{
     padding-left: 0px;
     z-index: 1;
     
-  
-
 }
+
+.img-depan{
+    display: flex;
+    margin-right: 0px;
+    width: 50%;
+    justify-content: center;
+    border: 1px solid black;
+}
+
 .jumbotron .judul{
     font-weight: bold;
     font-family: 'Hanken Grotesk', sans-serif;
@@ -135,14 +142,7 @@ p{
     letter-spacing: 7px;
 }
 
-.jumbotron .judul1{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: solid black;
-    font-size: 30px;
-}
-
-.img-depan{
+.img-dua{
     display: flex;
     margin-right: 0px;
     width: 50%;
@@ -150,9 +150,13 @@ p{
     border: 1px solid black;
 }
 
-p{
-    font-family: 'Courier New', Courier, monospace  ;
+.jumbotron .judul1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: solid black;
+    font-size: 30px;
 }
+
 .judul1{
     width: 50%;
     padding-right: 50px;
@@ -170,6 +174,9 @@ p{
     font-family: 'Poppins';
 }
 
+#projek{
+    border: 1px solid black;
+
 .sulit{
     width: 100%;
     display: flex;
@@ -181,17 +188,12 @@ p{
     width: 80%;
 }
 
-.satu{
-    width: 200px;
-    height: 300px;
-}
-
 .saya{
     text-align: center;
 }
 
-#projek{
-    border: 1px solid black;
+.sembarang{
+    display: flex;
 }
 
 .kami{
@@ -200,6 +202,7 @@ p{
     width: 20%;
 }
 
-.sembarang{
-    display: flex;
+.satu{
+    width: 200px;
+    height: 300px;
 }
