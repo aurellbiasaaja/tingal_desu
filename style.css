@@ -197,5 +197,9 @@ p{
 .kami{
     display: flex;
     justify-content: center;
-    
+    width: 20%;
+}
+
+.sembarang{
+    display: flex;
 }
