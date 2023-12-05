@@ -31,6 +31,10 @@ header {
     /* kemudian beri warna backgroundnya */
     background-color: #bebcce;
     align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 /* Kemudian kita lanjut membuat style pada div yang sudah diberi nama class yaitu nama */
@@ -191,6 +195,7 @@ p{
 
 .susah{
     width: 80%;
+    border: 1px solid green;
 }
 
 .saya{
@@ -232,13 +237,92 @@ p{
 }
 
 .kulo{
+    width: 350%;
     text-align: center;
     font-size: 70px;
     word-spacing: 5px;
     font-family: 'Dhurjati';
+    border: 1px solid black;
 }
 
 .kita{
     width: 50px;
     border: 1px solid black;
+}
+
+#mulai{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+
+.tkj{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.tkj2{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    word-spacing: 5px;
+    font-family: 'Dhurjati';
+    border: 1px solid black;
+}
+
+.kusnul{
+    display: flex;
+
+}
+
+.tkj12{
+    border: 1px solid pink; 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#absen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+
+.agung{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.fani{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    word-spacing: 5px;
+    font-family: 'Dhurjati';
+    border: 1px solid black;
+}
+
+.pino{
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+#sertifikat{
+     
 }
