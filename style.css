@@ -195,7 +195,7 @@ p{
 
 .susah{
     width: 80%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .saya{
@@ -225,12 +225,12 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .angel{
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -242,12 +242,12 @@ p{
     font-size: 70px;
     word-spacing: 5px;
     font-family: 'Dhurjati';
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .kita{
     width: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #mulai{
@@ -256,7 +256,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .tkj{
@@ -264,7 +264,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .tkj2{
@@ -273,7 +273,7 @@ p{
     font-size: 70px;
     word-spacing: 5px;
     font-family: 'Dhurjati';
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .kusnul{
@@ -282,7 +282,7 @@ p{
 }
 
 .tkj12{
-    border: 1px solid pink; 
+    /* border: 1px solid pink;  */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -295,7 +295,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .agung{
@@ -303,7 +303,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .fani{
@@ -312,11 +312,11 @@ p{
     font-size: 70px;
     word-spacing: 5px;
     font-family: 'Dhurjati';
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .pino{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,5 +324,27 @@ p{
 }
 
 #sertifikat{
-     
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+}
+
+.aje{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    word-spacing: 5px;
+    font-family: 'Dhurjati';
+    /* border: 1px solid black; */
+}
+
+.celci{
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
 }
