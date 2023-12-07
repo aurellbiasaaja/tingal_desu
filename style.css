@@ -125,6 +125,7 @@ p{
     align-items: center;
     padding-left: 0px;
     z-index: 1;
+    padding-top: 80px;
     
 }
 
@@ -142,6 +143,18 @@ p{
     /* color: solid black; */
     font-size: 30px;
 
+}
+
+.jumbotron2{
+    width: 100%;
+    /* border: 1px solid white; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    z-index: 1;
+    padding-top: 80px;
 }
 
 .neh {
@@ -184,6 +197,7 @@ p{
 #projek{
     /* border: 1px solid black; */
     margin-bottom: 100px;
+    padding-top: 80px;
 }
 
 .sulit{
@@ -225,6 +239,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    padding-top: 80px;
     /* border: 1px solid black; */
 }
 
@@ -256,6 +271,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    padding-top: 30px;
     /* border: 1px solid black; */
 }
 
@@ -278,6 +294,7 @@ p{
 
 .kusnul{
     display: flex;
+    border: 1px solid red;
 
 }
 
@@ -295,6 +312,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    padding-top: 50px;
     /* border: 1px solid black; */
 }
 
